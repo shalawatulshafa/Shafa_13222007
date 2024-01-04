@@ -1,0 +1,13 @@
+komunikasi ada 3 mode Full-duplex, half-duplex, dan simplex adalah konsep dalam komunikasi data yang menggambarkan kemampuan perangkat atau saluran untuk mentransmisikan data dalam arah yang berbeda atau kemampuan untuk mentransmisikan data secara bersamaan atau searah.
+Full-Duplex:
+Dalam full-duplex, perangkat atau saluran dapat mentransmisikan data secara dua arah secara bersamaan. Artinya, perangkat bisa mengirim dan menerima data pada waktu yang sama. Contohnya adalah telepon, di mana kedua pihak dapat berbicara dan mendengarkan secara bersamaan.
+Half-Duplex:
+Half-duplex memungkinkan transmisi data dalam dua arah tetapi tidak secara bersamaan. Artinya, perangkat dapat berkomunikasi dalam kedua arah, tetapi hanya dalam satu arah pada suatu waktu. Contohnya adalah walkie-talkie, di mana seseorang berbicara dan kemudian harus menunggu untuk mendengarkan tanggapan dari pihak lain.
+Simplex:
+Dalam simplex, transmisi data hanya terjadi dalam satu arah. Perangkat atau saluran hanya bisa mengirim atau menerima data, tetapi tidak keduanya secara bersamaan.
+Serial Peripheral Interface (SPI) adalah protokol komunikasi serial yang digunakan untuk mentransfer data antara mikrokontroler, sensor, IC (Integrated Circuit), dan perangkat lainnya. Protokol SPI menggunakan beberapa jalur (kabel) untuk mengirimkan data antar perangkat:
+SCLK (Serial Clock): Ini adalah sinyal clock yang dikirimkan oleh master untuk mengatur kecepatan transfer data.
+MOSI (Master Output Slave Input): Ini adalah jalur di mana master mengirimkan data ke perangkat slave.
+MISO (Master Input Slave Output): Ini adalah jalur di mana perangkat slave mengirimkan data ke master.
+SS/CS (Slave Select/Chip Select): Jalur ini digunakan oleh master untuk memilih perangkat slave yang akan berkomunikasi. Dalam sistem dengan beberapa perangkat slave, setiap perangkat biasanya memiliki jalur SS/CS yang berbeda.
+lalu ada komikasi UART,Can-Bus
